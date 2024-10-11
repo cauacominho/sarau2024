@@ -38,12 +38,13 @@ Antes de iniciar, certifique-se de ter o seguinte instalado:
 
 ```bash
 git clone https://github.com/cauacominho/sarau2024.git
+````
 
 2. Acesse a pasta do projeto:
 
 ```bash
 cd seu-repositorio-sarau
-
+````
 
 ### Tecnologias Utilizadas
 
