@@ -1,0 +1,87 @@
+.form-default {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--primary);
+    background-color: var(--bg);
+    border-radius: 0;
+    height: 50px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    color: var(--primary);
+}
+
+.form-default:focus {
+    border-color: var(--primary);
+    outline: none;
+    border: 2px solid var(--primary);
+}
+
+.form-default::placeholder {
+    color: var(--primary);
+}
+
+.select-default {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--primary);
+    background-color: var(--bg);
+    border-radius: 0;
+    height: 50px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    color: var(--primary);
+}
+
+.select-default option {
+    color: black;
+}
+
+.form-textarea {
+    padding: 10px;
+    border: 1px solid var(--primary);
+    background-color: var(--bg);
+    border-radius: 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+    color: var(--primary);
+    width: 100%;
+}
+
+.form-textarea:focus {
+    border-color: var(--primary);
+    outline: none;
+    border: 2px solid var(--primary);
+}
+
+.form-textarea::placeholder {
+    color: var(--primary);
+}
+
+/* TAGS */
+.tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* Espaçamento entre as tags */
+    margin-bottom: 5px; /* Espaçamento entre as tags e o textarea */
+}
+
+.tag {
+    background-color: var(--primary); /* Cor de fundo da tag */
+    border: 1px solid var(--primary); /* Borda da tag utilizando a variável de cor primária */
+    border-radius: 3px; /* Cantos arredondados */
+    padding: 5px 10px; /* Espaçamento interno da tag */
+    display: flex;
+    align-items: center;
+    color: var(--secondary); /* Cor do texto da tag */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+.tag span {
+    margin-right: 5px; /* Espaçamento entre o texto e o botão de remoção */
+}
+
+.remove-tag {
+    cursor: pointer; /* Mudar o cursor ao passar sobre o botão de remoção */
+    color: var(--secondary); /* Cor do botão de remoção */
+    font-weight: bold; /* Destaque para o botão de remoção */
+}

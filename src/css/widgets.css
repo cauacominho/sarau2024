@@ -1,0 +1,87 @@
+/* Nav */
+.nav-link {
+    color: var(--white);
+}
+
+.nav-link:hover {
+    color: var(--primary);
+    transform: translateY(-3px);
+    transition: transform 0.4s ease;
+    text-decoration: underline;
+}
+
+/* Section */
+.sec-2 {
+    position: relative;
+    width: 100%; /* Faz a div ocupar toda a largura */
+    background-image: url('../img/imgback2.png');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área da div */
+    background-position: center; /* Centraliza a imagem no fundo */
+}
+
+.sec-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Camada preta com 70% de opacidade */
+    z-index: 1; /* Coloca a camada sobre a imagem */
+}
+
+.sec-2 > * {
+    position: relative;
+    z-index: 2; /* Coloca o conteúdo acima da camada de escurecimento */
+    padding: 2rem; /* Adiciona um pouco de espaçamento interno ao conteúdo */
+    color: #fff; /* Altera a cor do texto para branco para melhor visibilidade */
+    text-align: center; /* Centraliza o texto, se necessário */
+}
+.sec-3 {
+    position: relative;
+    width: 100%; /* Faz a div ocupar toda a largura */
+    background-image: url('../img/back2.png');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a área da div */
+    background-position: center; /* Centraliza a imagem no fundo */
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.sec-3::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Camada preta com 70% de opacidade */
+    z-index: 1; /* Coloca a camada sobre a imagem */
+}
+
+.sec-3 > * {
+    position: relative;
+    z-index: 2; /* Coloca o conteúdo acima da camada de escurecimento */
+    padding: 2rem; /* Adiciona um pouco de espaçamento interno ao conteúdo */
+    color: #fff; /* Altera a cor do texto para branco para melhor visibilidade */
+    text-align: center; /* Centraliza o texto, se necessário */
+}
+
+/* Cards */
+.custom-card {
+    background-color: transparent;
+    border: 2px solid var(--white);
+    color: var(--white);
+    min-height: 150px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+/* Images */
+.images img {
+    width: 30%;
+}
+
+/* footer */
+footer a:hover {
+    text-decoration: underline;
+}
+
+

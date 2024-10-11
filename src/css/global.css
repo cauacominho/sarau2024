@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import url('buttons.css');
+@import url('colors.css');
+@import url('form.css');
+@import url('widgets.css');
+
+::-webkit-scrollbar {
+    width: 8px; /* Largura da barra de rolagem */
+}
+
+/* Estilizando o botão na barra de rolagem */
+::-webkit-scrollbar-button {
+    background-color: #ccc; /* Cor do botão */
+}
+
+/* Estilizando o trilho da barra de rolagem */
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; /* Cor do trilho */
+    border-radius: 10px; /* Raio da borda */
+}
+
+/* Estilizando o polegar (a parte móvel) da barra de rolagem */
+::-webkit-scrollbar-thumb {
+    background-color: #939393; /* Cor do polegar */
+    border-radius: 10px; /* Raio da borda */
+}
+
+/* Estilizando o canto entre o polegar e o trilho */
+::-webkit-scrollbar-corner {
+    background-color: transparent; /* Cor do canto */
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    min-height: 100vh; /* Define um mínimo de 100% da altura da viewport */
+    background: linear-gradient(204deg, rgba(91, 79, 73, 1) 0%, rgba(48, 42, 42, 1) 100%);
+    background-repeat: no-repeat; /* Evita a repetição do fundo */
+    background-size: cover; /* Faz o background cobrir toda a área do body */
+}
+
+a {
+    text-decoration: none;
+}
+
+.font-inter {
+    font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.font-italiana {
+    font-family: "Italiana", Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
